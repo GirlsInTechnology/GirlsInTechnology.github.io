@@ -143,7 +143,7 @@ a {
 .menu {
   position: relative;
   z-index: 1;
-  background-color:pink;
+  background-color:#B5066E;
   border: 0;
   margin: -1px auto;
   overflow: hidden;
@@ -166,7 +166,7 @@ a {
 .menu li a {
   display: block;
   padding: 10px 0;
-  background-color: transparent;
+  background-color: #B5066E;
   text-decoration: none;
   text-align: center;
   font-size: 1.2em;

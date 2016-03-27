@@ -107,7 +107,7 @@ a {
 }
 
 .nav {
-  padding: 2em 0;
+  padding: 0em 0;
   font-size: 1em;
   letter-spacing: 0.1em;
   text-align: right;
@@ -230,6 +230,63 @@ a {
 }
 .menu li {
   /* no sub menus for mobile */
+}
+
+#mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  background-color: #000;
+  display: none;
+}
+
+#boxes .window {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400px;
+  height: 1000px;
+  display: none;
+  z-index: 9999;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#boxes #dialog {
+  width: 1200px;
+  height: 500px;
+  padding: 10px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt;
+  background-image: url("img/conference.png")
+}
+
+#popupfoot {
+  font-size: 16pt;
+  position: absolute;
+  bottom: 0px;
+  width: 250px;
+  left: 250px;
+}
+
+.wpb_wrapper{
+  width:50%;
+  align:center;
+  margin-left:350px;
+}
+#hero-pitch h1{
+  color: #FFF;
+    font-size: 25px;
+    margin: 0 auto 20px auto;
+    position: relative;
+    text-shadow: 1px 1px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    width: 90%;
+    z-index: 2;
+
 }
 .menu li a {
   display: block;
@@ -440,7 +497,7 @@ a {
 }
 
 
-#share-buttons img {
+#e-buttons img {
 width: 25px;
 padding: 2px;
 border: 0;
